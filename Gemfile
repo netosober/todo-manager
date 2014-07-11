@@ -11,6 +11,8 @@ gem 'spring',        group: :development
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'puma'
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
 end
