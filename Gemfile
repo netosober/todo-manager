@@ -13,6 +13,8 @@ gem 'ember-source'
 gem 'emblem-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'puma'
+gem "factory_girl_rails", "~> 4.0"
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'shoulda-matchers', require: false
 end
