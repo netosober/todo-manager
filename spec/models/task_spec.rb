@@ -4,9 +4,9 @@ RSpec.describe Task, :type => :model do
   let(:task) { build(:task) }
   subject { build(:task) }
 
-  it { should be_valid }
-  it { should validate_presence_of :title }
-  it { should validate_presence_of :due_on }
+  it { is_expected.to be_valid }
+  it { is_expected.to validate_presence_of :title }
+  it { is_expected.to validate_presence_of :due_on }
 
   describe '#expired?' do
 
